@@ -1,0 +1,29 @@
+{
+  "name": "itaucripto",
+  "version": "1.0.0",
+  "description": "Versão javascript da antiga itaucripto.dll (x86). Ideal quando necessário rodar sobre ARM, AMD64 (x86_64), GNU/Linux, BSD et cetera",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagaozen/itaucripto.git"
+  },
+  "keywords": [
+    "itaucripto"
+  ],
+  "author": "Nagao, Fabio Zendhi (nagaozen)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nagaozen/itaucripto/issues"
+  },
+  "homepage": "https://github.com/nagaozen/itaucripto",
+  "devDependencies": {
+    "browserify": "^16.2.2",
+    "eslint": "^5.0.1",
+    "eslint-plugin-nodeca": "^1.0.3",
+    "jest": "^23.3.0"
+  }
+}
