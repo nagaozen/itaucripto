@@ -4,8 +4,10 @@
   "description": "Versão javascript da antiga itaucripto.dll (x86). Ideal quando necessário rodar sobre ARM, AMD64 (x86_64), GNU/Linux, BSD et cetera",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "lint": "eslint index.js"
+    "test": "jest --coverage",
+    "lint": "eslint index.js",
+    "build": "browserify -s Itaucripto -e index.js -o dist/itaucripto.js",
+    "postbuild": "uglifyjs dist/itaucripto.js -o dist/itaucripto.min.js -cm"
   },
   "repository": {
     "type": "git",
@@ -20,10 +22,15 @@
     "url": "https://github.com/nagaozen/itaucripto/issues"
   },
   "homepage": "https://github.com/nagaozen/itaucripto",
+  "jest": {
+    "verbose": true
+  },
+  "runkitExampleFilename": "runkit.js",
   "devDependencies": {
     "browserify": "^16.2.2",
     "eslint": "^5.0.1",
     "eslint-plugin-nodeca": "^1.0.3",
-    "jest": "^23.3.0"
+    "jest": "^23.3.0",
+    "uglify-js": "^3.4.4"
   }
 }
