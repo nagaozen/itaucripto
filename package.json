@@ -14,7 +14,9 @@
     "url": "git+https://github.com/nagaozen/itaucripto.git"
   },
   "keywords": [
-    "itaucripto"
+    "itaucripto",
+    "itau",
+    "shopline"
   ],
   "author": "Nagao, Fabio Zendhi (nagaozen)",
   "license": "MIT",
