@@ -1,6 +1,6 @@
 {
   "name": "itaucripto",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Versão javascript da antiga itaucripto.dll (x86). Ideal quando necessário rodar sobre ARM, AMD64 (x86_64), GNU/Linux, BSD et cetera",
   "main": "index.js",
   "scripts": {
