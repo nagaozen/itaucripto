@@ -1,6 +1,6 @@
 {
   "name": "itaucripto",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Versão javascript da antiga itaucripto.dll (x86). Ideal quando necessário rodar sobre ARM, AMD64 (x86_64), GNU/Linux, BSD et cetera",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/nagaozen/itaucripto/issues"
   },
-  "homepage": "https://github.com/nagaozen/itaucripto",
+  "homepage": "https://www.itau.com.br/empresas/recebimentos/shopline/",
   "jest": {
     "verbose": true
   },
